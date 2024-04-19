@@ -1,0 +1,408 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg{
+    width: 100%;
+    height: 90vh;
+    background-image: url(carousel/1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.bg2{
+    width: 100%;
+    height: 90vh;
+    background-image: url(carousel/2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.bg3{
+    width: 100%;
+    height: 90vh;
+    background-image: url(carousel/3.jpg);
+    background-size: cover;  
+    background-position: center;
+}
+.bg4{
+    width: 100%;
+    height: 90vh;
+    background-image: url(carousel/4.jpg);
+    background-size: cover;  
+    background-position: center; 
+    
+}
+.bg .font{
+  color:whitesmoke;
+}
+.bg .font h3{
+    font-size: 48px;
+}
+@media (max-width: 996px) {
+    .bg .font h3
+    {
+        font-size: 36px;
+    }
+    .bg .font p{
+        font-size: 16px;
+    }
+}
+.bg .font button{
+    background-color:aliceblue;
+    width: 150px;
+    border: none;
+    border-radius: 6px;
+    color:black;
+}
+.bg2 .font2 button{
+    background-color:aliceblue;
+    width: 150px;
+    border: none;
+    border-radius: 6px;
+    color:black;
+}
+.bg3 .font3 button{
+    background-color:aliceblue;
+    width: 150px;
+    border: none;
+    border-radius: 6px;
+    color:black;
+}
+.bg2 .font2{
+    color:whitesmoke;
+  }
+  .bg2 .font2 h3{
+      font-size: 48px;
+  }
+  .bg3 .font3{
+    color:whitesmoke;
+  }
+  .bg3 .font3 h3{
+      font-size: 48px;
+  }
+  .bg4 .font4{
+    color:whitesmoke;
+  }
+  .bg4 .font4 h3{
+      font-size: 48px;
+  }
+  .bg4 .font4 button{
+    background-color:white;
+    width: 160px;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    color:black;
+  }
+  @media (max-width: 996px) {
+    .bg3 .font3 h3
+    {
+        font-size: 36px;
+    }
+    .bg3 .font3 p{
+        font-size: 16px;
+    }
+}
+@media (max-width: 996px) {
+    .bg2 .font2 h3
+    {
+        font-size: 36px;
+    }
+    .bg2 .font2 p{
+        font-size: 16px;
+    }
+}
+@media (max-width: 996px) {
+    .bg4 .font4 h3
+    {
+        font-size: 36px;
+    }
+    .bg .font4 p{
+        font-size: 16px;
+    }
+}
+.nav-link{
+margin-right: 0%;
+padding: 10px;
+width: 110px;
+text-align: center;
+}
+.nav-link:hover{
+    color: orange;
+}
+p{
+    text-align: justify;
+}
+a{
+    color: black;
+}
+#data .card{
+    border: none;
+}
+.bg5{
+    width: 100%;
+    height: 100vh;
+    background-image: url(photos/8.jpg);
+    background-position: center;
+    background-size:cover;
+}
+.bg5 .font5{
+    color: white;
+}
+.font5 h1{
+    font-size: 48px;
+}
+@media (max-width: 996px) {
+    .bg5 .font5 h1
+    {
+        font-size: 36px;
+    }
+    .bg5 .font5 p{
+        font-size: 16px;
+    }
+}
+.bg5 .font5 button{
+    background-color:white;
+    width: 160px;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    color:black;
+}
+.worth{
+    background-color: grey;
+}
+.bg6{
+    width: 100%;
+    height: 80vh;
+    background-image: url(photos/5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.font6 h1{
+ font-size: 42px;
+ color: white;
+}
+.font6 p{
+    font-size: 18px;
+    color: white;
+}
+.bg7{
+    width: 100%;
+    height: 80vh;
+    background-image: url(photos/6.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+.worth1{
+    background-color: grey;
+}
+.font7 h1{
+    font-size: 42px;
+    color: white;
+}
+.font7 p{
+       font-size: 18px;
+       color: white;
+}
+.bg8{
+    width: 100%;
+    height: 80vh;
+    background-image: url(photos/7.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+.worth2{
+    background-color: grey;
+}
+.font8 h1{
+    font-size: 42px;
+    color: white;
+}
+.font8 p{
+       font-size: 18px;
+       color: white;
+}
+#clear .card{
+    border: none;
+}
+.bg11{
+    width: 100%;
+    height: 90vh;
+    background-image: url(photos/15.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+}
+.font11{
+    color: white;
+    text-align: center;
+}
+.font11 h1{
+    font-size: 42px;
+}
+.font11 p{
+    font-size: 18px;
+}
+@media (max-width: 996px) {
+    .bg11 .font11 h1
+    {
+        font-size: 36px;
+    }
+    .bg11 .font11 p{
+        font-size: 16px;
+    }
+}
+#zone button{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+#zone input{
+    width: 300px;
+    height: 40px;
+}
+#zone{
+    margin-top: 30px;
+    border: 2px solid black;
+}
+#zone2 li{
+    list-style: none;
+    padding: 5px;
+}
+#zone2 li a{
+    color: white;
+}
+#zone2 li a:hover{
+    color: green;
+}
+#zone2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+#zone2 h4{
+ color: rgb(14, 176, 14);
+ text-decoration: underline solid rgb(14, 176, 14);
+}
+.bg12{
+    width: 100%;
+    height: 90vh;
+    background-image: url(photos/16.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.font12 h1{
+    font-size: 56px;
+    color: white;
+}
+.font12 p{
+  font-size: 18px;
+  background-color:rgb(60, 181, 109);
+  color: white;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+}
+.worth5{
+    background-color: grey;
+}
+.bg13{
+    width: 100%;
+    height: 80vh;
+    background-image: url(photos/2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.worth6{
+    background-color: grey;
+}
+.bg14{
+    width: 100%;
+    height: 80vh;
+    background-image: url(photos/16.jpg);
+    background-position: center;
+    background-size: cover;  
+}
+#data5 .card{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.bg16{
+    width: 100%;
+    height: 90vh;
+    background-image: url(photos/3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.worth12{
+    background-color: grey;
+}
+.bg17{
+    width: 100%;
+    height: 80vh;
+    background-image: url(photos/32.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.worth13{
+    background-color: grey;
+}
+.bg18{
+    width: 100%;
+    height: 80vh;
+    background-image: url(photos/33.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#clan h5{
+font-weight: 350;
+}
+.bg28{
+    width: 100%;
+    height: 70vh;
+    background-image: url(photos/58.jpg);
+    background-position: center;
+    background-size: cover;
+}
+    .flax3 h1{
+        font-size: 56px;
+        color: white;
+    }
+    .flax3 p{
+      font-size: 18px;
+      background-color:rgb(60, 181, 109);
+      color: white;
+      width: 150px;
+      text-align: center;
+      border-radius: 10px;
+    }
+    span{
+        color: rgb(13, 91, 37);
+    }
+    .flen{
+        background-color: black;
+        color: white;
+        padding: 0%;
+        margin: 0%;
+        height: 30px;
+    }
+    .back{
+        background-color: transparent;
+       margin-left: 16%;
+       border-radius: 10px;
+       border: 2px solid black;
+       padding: 5px 15px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
